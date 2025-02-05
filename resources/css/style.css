@@ -3,7 +3,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-header h1 {
+header h1{
     font-size: 50px;
     color: white;
     font-weight: normal;
@@ -12,4 +12,38 @@ header h1 {
 
 .excursion-video {
     text-align: center;
+}
+
+.travel-guide p {
+    color: gray;
+    text-align: center;
+}
+
+.travel-guide {
+    display: flex;
+    justify-content: center;
+}
+
+.travel-guide p {
+    font-size: 21px;
+}
+
+.guide {
+    font-weight: 300px;
+    font-size: 42px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 2em;
+}
+
+footer h1 {
+    color: white;
+    font-weight: normal;
+}
+
+.copyright {
+    color: gray;
+    float: right;
 }
